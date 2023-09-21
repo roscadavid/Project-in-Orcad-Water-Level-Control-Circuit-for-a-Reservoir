@@ -1,4 +1,5 @@
-# Project-in-Orcad-Water-Level-Control-Circuit-for-a-Reservoir
+# Project in Orcad Water Level Control Circuit for a Reservoir
+
 I have implemented a water level control system for a reservoir in the OrCad program. 
 Knowing that the level sensor used can measure liquid level linearly, with a maximum value of 440 [cm], the system is designed to maintain the reservoir level within the range of 80-380 [cm]. The level sensor is biased in current. The linear variation of the sensor's electrical resistance with the liquid level is 13k-23k [cm], and it needs to be converted into a voltage variation in the range of 0-(Vcc-2V). In the reservoir, the water level is maintained within the specified range using a pump controlled by a comparator and an electromagnetic relay. The pump-relay assembly is modeled using a resistor. 
 The state of the pump (on/off) is indicated by an orange LED.
